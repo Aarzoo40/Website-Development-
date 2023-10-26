@@ -19,5 +19,31 @@ body {
     width: 450px;
     background-color: #fff;
     overflow: hidden;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.container:hover .img-container img {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.container:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.container .img-container {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 0.7rem;
+}
+
+.container .img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
 }
 
